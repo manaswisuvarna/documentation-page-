@@ -1,0 +1,131 @@
+.navbar{
+    background-color: black;
+    color: rgb(181, 183, 186);
+    padding: 10px;
+    /* padding-bottom: 40px; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+   /* posi */
+}
+nav{
+    position: sticky;
+}
+
+.abovefcc{
+    text-decoration: none;
+    color: rgb(181, 183, 186);
+}
+.abovefcc:hover{
+    color:white ;
+}
+button{
+    color: #000;
+    background-color: rgb(100, 201, 100);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.navitem{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    /* margin-bottom: 35px; */
+    border-radius: 5px;
+    background-color: rgb(55, 61, 61);
+    
+}
+.navitem:hover{
+    background-color: rgb(100, 103, 103);
+}
+#signup{
+    color: #000;
+    background-color: rgb(100, 201, 100);
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+#signup:hover ,button:hover{
+    background-color: rgb(174, 202, 174);
+}
+.aside{
+    list-style: none;
+    display: block;
+    height: 550px;
+    overflow-y: scroll;
+}
+.asideitem{
+    display: block;
+    padding: 20px;
+    font-size: x-large;
+    border-top: 1px solid black;
+} 
+.asideitem-a{
+    text-decoration: none;
+    color: black;
+}
+.asideitem-a:hover{
+    color: rgb(107, 106, 106);
+}
+p{
+    font-size:large ;
+}
+aside{
+    border-right:1px solid black ;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+section{
+    padding: 40px;
+    border-left: 1px solid black;
+    overflow-y: scroll;
+    display: block;
+ height: 600px;
+    /* overflow-y: auto; */
+}
+section div{
+    display: block;
+}
+
+.syntax{
+    border-radius: 5px;
+    background-color: rgb(220, 223, 223);
+    padding: 5px;
+  margin: 10px;
+}
+
+
+@media(max-width:1200px)
+{
+    .navbar{
+        background-color: black;
+    color: rgb(181, 183, 186);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* align-items: center; */
+    }}
+
+    @media(max-width:600px) {
+        
+  
+    .main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.navitem{
+    display:inline-block;
+}
+
+
+}
+
+
